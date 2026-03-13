@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import MobileCTA from "@/components/MobileCTA";
@@ -59,6 +60,7 @@ export default function RootLayout({
         <main className="flex-1 pb-24 md:pb-0">{children}</main>
         <MobileCTA />
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
