@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 const PHONE_PLACEHOLDER = "+212 6 14 07 13 00";
 const WHATSAPP_NUMBER = "+212614071300";
 const INSTAGRAM_URL = "https://www.instagram.com/medinafreshbio/";
+const TIKTOK_URL = "https://www.tiktok.com/@medinafreshbio";
 const EMAIL = "medinafreshbio@gmail.com";
 
 export default function Contact() {
@@ -93,7 +94,23 @@ export default function Contact() {
             Instagram
           </a>
           <a
-            href={`mailto:${EMAIL}`}
+            href={TIKTOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-[52px] min-w-[200px] items-center justify-center gap-2 rounded-2xl bg-gray-900 px-6 py-3.5 font-semibold text-white shadow-soft transition-all hover:bg-black hover:shadow-soft-lg focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2"
+          >
+            <svg
+              className="h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88 6.02v-9.52a7.37 7.37 0 0 0-1.26-.1 7.35 7.35 0 0 0-7.35 7.35 7.35 7.35 0 0 0 7.35 7.35 7.35 7.35 0 0 0 7.35-7.35v-5.2a9.84 9.84 0 0 0 6.3 2.26v-3.4a4.85 4.85 0 0 1-1-.09z" />
+            </svg>
+            TikTok
+          </a>
+          <a
+            href="mailto:medinafreshbio@gmail.com"
             className="inline-flex min-h-[52px] min-w-[200px] items-center justify-center gap-2 rounded-2xl bg-white px-6 py-3.5 font-medium text-gray-800 shadow-soft transition-all hover:shadow-soft-lg focus:outline-none focus:ring-2 focus:ring-medina-green-500 focus:ring-offset-2"
           >
             <svg
