@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const PHONE_PLACEHOLDER = "+212 6 14 07 13 00";
 const WHATSAPP_NUMBER = "+212614071300";
-const INSTAGRAM_HANDLE = "medina_fresh.bio";
+const INSTAGRAM_URL = "https://www.instagram.com/medinafreshbio/";
 
 export default function Contact() {
   return (
@@ -76,7 +76,7 @@ export default function Contact() {
             WhatsApp
           </a>
           <a
-            href={`https://instagram.com/${INSTAGRAM_HANDLE}`}
+            href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex min-h-[52px] min-w-[200px] items-center justify-center gap-2 rounded-2xl bg-gradient-to-br from-[#f09433] via-[#e1306c] to-[#833ab4] px-6 py-3.5 font-semibold text-white shadow-soft transition-all hover:opacity-90 hover:shadow-soft-lg focus:outline-none focus:ring-2 focus:ring-[#e1306c] focus:ring-offset-2"
