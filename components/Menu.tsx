@@ -32,14 +32,6 @@ const menuData = [
     ],
   },
   {
-    category: "TIRAMISU",
-    items: [
-      { name: "Classic Italian", price: 30 },
-      { name: "Nutella Tiramisu", price: 35 },
-      { name: "Strawberry Tiramisu", price: 35 },
-    ],
-  },
-  {
     category: "FRESH FRUITS TO GO",
     items: [
       { name: "Mixed Fruit Cup", price: 20 },
