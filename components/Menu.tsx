@@ -16,10 +16,10 @@ const menuData = [
   {
     category: "SMOOTHIES",
     items: [
-      { name: "Tropical Mango Smoothie", price: 30 },
-      { name: "Red Energy (Strawberry Banana)", price: 28 },
-      { name: "Green Detox (Avocado Spinach Apple)", price: 32 },
-      { name: "Protein Boost (Banana Peanut Butter)", price: 35 },
+      { name: "Tropical Mango Smoothie", price: 25 },
+      { name: "Red Energy (Strawberry Banana)", price: 25 },
+      { name: "Green Detox (Avocado Spinach Apple)", price: 25 },
+      { name: "Protein Boost (Banana Peanut Butter)", price: 25 },
     ],
   },
   {
